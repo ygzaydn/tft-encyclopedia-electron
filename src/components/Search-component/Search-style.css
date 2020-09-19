@@ -1,0 +1,22 @@
+.search-bar {
+    margin: 0 2vw 0 2vw;
+    border: none;
+    background-color: inherit;
+    align-items: center;
+    border-bottom: #F05D23 solid 2px;
+    color: #261C15;
+    text-decoration: none;
+    outline: none;
+    transition: 0.5s;
+    text-align: center;
+}
+
+.search-bar:focus, .search:hover, .search-bar:active {
+    border: none;
+    background-color: inherit;
+    border-bottom: #F05D23 solid 2px;
+    padding: 0 3vw 0 3vw;
+
+}
+
+

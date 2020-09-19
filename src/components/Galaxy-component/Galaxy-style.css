@@ -1,0 +1,32 @@
+.galaxy-card {
+    display:flex;
+    flex-direction: column;
+    background-color: #C5D86D;
+    align-items: center;
+    padding: 1vh 1vw 1vh 1vw;
+    margin: 1vh 1vw 1vh 1vw;
+    border: #F05D23 solid 3px;
+    flex-basis: 25vw;
+    border-radius: 5%;
+}
+
+.galaxy-card:hover {
+    transform: scale(1.25);
+    transition-duration: 0.5s;
+}
+
+.galaxy-name {
+    font-weight: bold;
+    color: #261C15;
+}
+
+.galaxy-image {
+    width: 50%;
+    height: auto;
+    border-bottom: #F05D23 solid 0.1vw;
+}
+
+.galaxy-description {
+    color: #261C15;
+    word-break: break-word;
+}

@@ -1,0 +1,460 @@
+[
+  {
+    "id": 1,
+    "name": "B.F. Sword",
+    "description": "+15 Attack Damage",
+    "pieces": false
+  },
+  {
+    "id": 2,
+    "name": "Recurve Bow",
+    "description": "+15% Attack Speed",
+    "pieces": false
+  },
+  {
+    "id": 3,
+    "name": "Needlessly Large Rod",
+    "description": "+20% Spell Power",
+    "pieces":false
+  },
+  {
+    "id": 4,
+    "name": "Tear of the Goddess",
+    "description": "+15 Mana",
+    "pieces": false
+  },
+  {
+    "id": 5,
+    "name": "Chain Vest",
+    "description": "+25 Armor",
+    "pieces": false
+  },
+  {
+    "id": 6,
+    "name": "Negatron Cloak",
+    "description": "+25 Magic Resist",
+    "pieces": false
+  },
+  {
+    "id": 7,
+    "name": "Giant's Belt",
+    "description": "+200 Health",
+    "pieces": false
+  },
+  {
+    "id": 8,
+    "name": "Spatula",
+    "description": "You will get a special ability",
+    "pieces": false
+  },
+  {
+    "id": 9,
+    "name": "Sparring Gloves",
+    "description": "+10% Dodge change, +10% Crit chance",
+    "pieces": false
+  },
+  {
+    "id": 11,
+    "name": "Deathblade",
+    "description": "Contributing to a kill grants +25 Attack Damage for the remainder of combat. This effect can stack any number of times (starting at 2).",
+    "pieces": {
+      "1":  1,
+      "2":  1
+    }
+  },
+  {
+    "id": 12,
+    "name": "Giant Slayer",
+    "description": "The holder's spells and basic attacks do 20% bonus true damage. if the target has more than 1750 maximum Health, the bonus increases to 80%",
+    "pieces": {
+      "1": 1,
+      "2": 2
+    }
+  },
+  {
+    "id": 13,
+    "name": "Hextech Gunblade",
+    "description": "45% healing from spell damage. Overhealing with this item now generates a shield (max 400 Health).",
+    "pieces": {
+      "1": 1,
+      "2": 3
+    }
+  },
+  {
+    "id": 14,
+    "name": "Spear of Shojin",
+    "description": "After first casting their spell, the holder's basic attacks restore 18% of their maximum mana on-hit",
+    "pieces": {
+      "1": 1,
+      "2": 4
+    }
+  },
+  {
+    "id": 15,
+    "name": "Guardian Angel",
+    "description": "Wearer revives with 400 HP",
+    "pieces": {
+      "1": 1,
+      "2": 5
+    }
+  },
+  {
+    "id": 16,
+    "name": "Bloodthirster",
+    "description": "Basic Attacks heal the wearer for 45% of the damage dealt.",
+    "pieces": {
+      "1": 1,
+      "2": 6
+    }
+  },
+  {
+    "id": 17,
+    "name": "Zeke's Herald",
+    "description": "When combat begins, the wearer and all allies within 1 hex in the same row gain +30% Attack Speed for the rest of combat.",
+    "pieces": {
+      "1": 1,
+      "2": 7
+    }
+  },
+  {
+    "id": 18,
+    "name": "Blade of the Ruined King",
+    "description": "Wearer is also a Blademaster",
+    "pieces": {
+      "1": 1,
+      "2": 8
+    }
+  },
+  {
+    "id": 19,
+    "name": "Infinity Edge",
+    "description": "[Unique] The holder gains 20% bonus critical strike damage, and 100% critical hit chance.",
+    "pieces": {
+      "1": 1,
+      "2": 9
+    }
+  },
+  {
+    "id": 22,
+    "name": "Rapid Firecannon",
+    "description": "+200% Range and holder’s attacks can’t miss.",
+    "pieces": {
+      "1": 2,
+      "2": 2
+    }
+  },
+  {
+    "id": 23,
+    "name": "Guinsoo's Rageblade",
+    "description": "Basic Attacks grant +5% bonus Attack Speed for the rest of combat. No stacking limit.",
+    "pieces": {
+      "1": 2,
+      "2": 3
+    }
+  },
+  {
+    "id": 24,
+    "name": "Statikk Shiv",
+    "description": "Every third Basic Attack from the wearer deals 85 magic damage to 3/4/5 enemies. Additional 85 True Damage if the target has a shield or is CC’d.",
+    "pieces": {
+      "1": 2,
+      "2": 4
+    }
+  },
+  {
+    "id": 25,
+    "name": "Titan's Resolve",
+    "description":"When the wearer takes damage or inflicts a critical hit, they gain a 2% stacking damage bonus. Stacks up to 25 times, at which point the wearer gains 25 Armor and Magic Resistance, and increases in size.",
+    "pieces": {
+      "1": 2,
+      "2": 5
+    }
+  },
+  {
+    "id": 26,
+    "name": "Runaan's Hurricane",
+    "description": "Basic Attacks fire a bolt at another nearby enemy, dealing 75% of the wearer's Attack Damage and applying on-hit effects.",
+    "pieces": {
+      "1":2,
+      "2":6
+    }
+  },
+  {
+    "id": 27,
+    "name": "Zz'Rot Portal",
+    "description": "When the wearer dies, a Construct with 1500/2250/3000 ★ Health aries to continue the fight.",
+    "pieces": {
+      "1":2,
+      "2":7
+    }
+  },
+  {
+    "id": 28,
+    "name": "Infiltrator's Talons",
+    "description":"The wearer gains the Infiltrator trait.",
+    "pieces": {
+      "1":2,
+      "2":8
+    }
+  },
+  {
+    "id": 29,
+    "name": "Last Whisper",
+    "description":"When the wearer inflicts a critical hit, the target's Armor is reduced by 75% for 3 seconds. This effect does not stack",
+    "pieces": {
+      "1":2,
+      "2":9
+    }
+  },
+  {
+    "id": 33,
+    "name": "Rabadon's Deathcap",
+    "description":"Wearer's Spell Power stat is amplified by 50%",
+    "pieces":{
+      "1":3,
+      "2":3
+    }
+  },
+  {
+    "id": 34,
+    "name": "Luden's Echo",
+    "description":"When the wearer casts their spell, the first target dealt magic damage and up to 3 nearby enemies are dealt an additional 200 magic damage.",
+    "pieces":{
+      "1":3,
+      "2":4
+    }
+  },
+  {
+    "id": 35,
+    "name": "Locket of the Iron Solari",
+    "description":"Shields allies within two hexes in the same row for 250 / 300 / 375 damage for 8 seconds (scales with wearer’s Star Level)",
+    "pieces": {
+      "1":3,
+      "2":5
+    }
+  },
+  {
+    "id": 36,
+    "name": "Ionic Spark",
+    "description":"Enemies within 2 hexes have their Magic Resist reduced by 40% (does not stack). When they cast a spell, they are zapped taking magic damage equal to 225% of their max Mana.",
+    "pieces":{
+      "1":3,
+      "2":6
+    }
+  },
+  {
+    "id": 37,
+    "name": "Morellonomicon",
+    "description":"When the wearer deals damage with their spell, they burn the target, dealing 25% of the target's Maximum Health as true damage over 10 seconds and reducing healing by 50% for the duration of the burn.",
+    "pieces":{
+      "1":3,
+      "2":7
+    }
+  },
+  {
+    "id": 38,
+    "name": "Battlecast Armor",
+    "description":"The wearer gains the Battlecast trait",
+    "pieces": {
+      "1":3,
+      "2":8
+    }
+  },
+  {
+    "id": 39,
+    "name": "Jeweled Gauntlet",
+    "description":"Holder’s spells can crit and holder gains +30% Critical Strike Damage.",
+    "pieces":{
+      "1":3,
+      "2":9
+    }
+  },
+  {
+    "id": 44,
+    "name": "Seraph's Embrace",
+    "description":"Sets holder's mana to 20 after each cast.",
+    "pieces":{
+      "1":4,
+      "2":4
+    }
+  },
+  {
+    "id": 45,
+    "name": "Frozen Heart",
+    "description":"Angrenzende Gegner verlieren 50% Angriffstempo. (Stacking increases the radius of this effect, not the amount of the slow)",
+    "pieces":{
+      "1":4,
+      "2":5
+    }
+  },
+  {
+    "id": 46,
+    "name": "Chalice of Favor",
+    "description":"At start of combat, the holder and their left and right neighbors gain 30 AP for 20 seconds.",
+    "pieces":{
+      "1":4,
+      "2":6
+    }
+  },
+  {
+    "id": 47,
+    "name": "Redemption",
+    "description":"When the wearer dies, allies are healed for 800 Health.",
+    "pieces":{
+      "1":4,
+      "2":7
+    }
+  },
+  {
+    "id": 48,
+    "name": "Star Guardian's Charm",
+    "description":"The wearer gains the Star Guardian trait.",
+    "pieces":{
+      "1":4,
+      "2":8
+    }
+  },
+  {
+    "id": 49,
+    "name": "Hand Of Justice",
+    "description": "At the begining of Each planning phase, gain one: Deal +45% more damage / Grants 45% healing from damage done by both abilities and basic attacks.",
+    "pieces":{
+      "1":4,
+      "2":9
+    }
+  },
+  {
+    "id": 55,
+    "name": "Bramble Vest",
+    "description":"Negates bonus damage from incoming critical hits. On being hit by a Basic Attack, deal 100 / 140 / 200 magic damage to all nearby enemies (once every 2.5 second maximum). Scales with wearer’s Star Level",
+    "pieces":{
+      "1":5,
+      "2":5
+    }
+  },
+  {
+    "id": 56,
+    "name": "Sword Breaker",
+    "description":"33% chance to disarm for 3 seconds",
+    "pieces":{
+      "1":5,
+      "2":6
+    }
+  },
+  {
+    "id": 57,
+    "name": "Red Buff",
+    "description":"Gains 10% max hp true damage over 4 seconds on hit in addition to its burn. And reducing healing by 50% for the duration of the burn.",
+    "pieces":{
+      "1":5,
+      "2":7
+    }
+  },
+  {
+    "id": 58,
+    "name": "Rebel Medal",
+    "description":"The wearer gains the Rebel trait.",
+    "pieces":{
+      "1":5,
+      "2":8
+    }
+  },
+  {
+    "id": 59,
+    "name": "Shroud of Stillness",
+    "description":"When combat begins, shoots a beam straight ahead that delays affected enemies' first spellcast, increasing their max Mana by 30% until they cast.",
+    "pieces":{
+      "1":5,
+      "2":9
+    }
+  },
+  {
+    "id": 66,
+    "name": "Dragon's Claw",
+    "description":"Reduces incoming magic damage by 50%",
+    "pieces":{
+      "1":6,
+      "2":6
+    }
+  },
+  {
+    "id": 67,
+    "name": "Zephyr",
+    "description":"When combat begins, the wearer summons a whirlwind on the opposite side of the arena that removes the closest enemy from combat for 5 seconds.",
+    "pieces":{
+      "1":6,
+      "2":7
+    }
+  },
+  {
+    "id": 68,
+    "name": "Celestial Orb",
+    "description":"The wearer gains the Celestial trait.",
+    "pieces":{
+      "1":6,
+      "2":8
+    }
+  },
+  {
+    "id": 69,
+    "name": "Quicksilver",
+    "description":"[UNIQUE] The wearer is immute to croud control for the first 10 seconds of combat",
+    "pieces":{
+      "1":6,
+      "2":9
+    }
+  },
+  {
+    "id": 77,
+    "name": "Warmog's Armor",
+    "description":"+600 Additional Health.",
+    "pieces":{
+      "1":7,
+      "2":7
+    }
+  },
+  {
+    "id": 78,
+    "name": "Protector's Chestguard",
+    "description":"The wearer gains the Protector trait.",
+    "pieces":{
+      "1":7,
+      "2":8
+    }
+  },
+  {
+    "id": 79,
+    "name": "Trap Claw",
+    "description":"Start combat with a spell shield. Stun the champion that breaks it for 4 sec",
+    "pieces":{
+      "1":7,
+      "2":9
+    }
+  },
+  {
+    "id": 88,
+    "name": "Force of Nature",
+    "description":"Gain +1 team size",
+    "pieces":{
+      "1":8,
+      "2":8
+    }
+  },
+  {
+    "id": 89,
+    "name": "Dark Star's Heart",
+    "description":"The wearer gains the Dark Star trait.",
+    "pieces":{
+      "1":8,
+      "2":9
+    }
+  },
+  {
+    "id": 99,
+    "name": "Thief's Gloves",
+    "description":"Each planning phase, fetch two temporary items, quality based upon your player level. [Consumes Three item Slots]","pieces":{
+      "1":9,
+      "2":9
+    }
+  }
+]

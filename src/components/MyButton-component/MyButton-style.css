@@ -1,0 +1,39 @@
+.button {
+    border: none;
+    border-bottom: solid #F05D23 3px;
+    background-color: #F7F7F2;
+    width: 15vw;
+    margin: 0 1.5vw 0 1.5vw;
+    transition: all 0.8s;
+    padding: 0.5vh 0 0.5vh 0;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px){
+    .button {
+        border: none;
+        border-bottom: solid #F05D23 3px;
+        background-color: #F7F7F2;
+        width: 15vw;
+        margin: 0 3vw 0 0;
+        transition: all 0.8s;
+        padding: 0.5vh 0 0.5vh 0;
+        text-align: center;
+        font-size: 80%;
+    }
+}
+
+.button:hover {
+    background-color: #F05D23;
+    color: white;
+    border: none;
+}
+
+.button:focus {
+    background-color: #F05D23;
+    color: #F7F7F2;
+    border: none;  
+    width: 20vw;
+    font-weight: bold;
+}
+
