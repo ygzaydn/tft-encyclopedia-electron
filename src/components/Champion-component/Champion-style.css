@@ -1,13 +1,17 @@
 .char-card {
     display:flex;
     flex-direction: column;
-    background-color:#C5D86D;
+    background-color:#CECECE;
     align-items: center;
     padding: 1vh 1vw 1vh 1vw;
     margin: 1vh 1vw 1vh 1vw;
-    border: #F05D23 solid 3px;
+    border: #2E8BAF solid 3px;
     border-radius: 5%;
-    flex-basis: 10vh;
+    flex-basis: 12vh;
+    box-shadow:
+    inset 0 0 0 2px hsl(0, 0%, 80%),
+    0 0 0 3px hsl(0, 0%, 90%);
+        
 }
 
 .char-card:hover {
@@ -20,14 +24,20 @@
 }
 .char-name {
     font-weight: bold;
-    color: #261C15;
+    color: #2E8BAF;
 }
 
 .char-cost {
-    color: #261C15;
-    border-bottom: #F05D23 solid 0.1vw;
+    color: #2E8BAF;
+    border-bottom: #E5E5E5 solid 0.1vw;
 }
 
 .char-trait {
-    color: #261C15;
+    color: #2E8BAF;
+}
+
+@media only screen and (max-width: 600px) {
+    .char-card{
+        flex-basis: 50vw;
+    }
 }

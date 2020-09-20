@@ -1,13 +1,18 @@
 .trait-card {
     display:flex;
     flex-direction: column;
-    background-color: #C5D86D;
+    background-color: #C4C4C4;
     align-items: center;
     padding: 1vh 1vw 1vh 1vw;
     margin: 1vh 1vw 1vh 1vw;
-    border: #F05D23 solid 3px;
-    flex-basis: 25vw;
+    border: #2E8BAF solid 3px;
+    flex-basis: 12vw;
     border-radius: 5%;
+    max-height: 20vh;
+    box-shadow:
+    inset 0 0 0 2px hsl(0, 0%, 80%),
+    0 0 0 3px hsl(0, 0%, 90%);
+        
 }
 
 .trait-card:hover {
@@ -17,16 +22,28 @@
 
 .trait-name {
     font-weight: bold;
-    color: #261C15;
+    color: #2E8BAF;
 }
 
 .trait-image {
     width: 50%;
     height: auto;
-    border-bottom: #F05D23 solid 0.1vw;
+    border-bottom: #2E8BAF solid 0.1vw;
 }
 
-.galaxy-description {
-    color: #261C15;
+.trait-description {
+    color: #2E8BAF;
+    overflow: hidden;
+}
+
+.trait-card:hover {
     word-break: break-word;
+    position: static;
+    max-height: 100vh;
+}
+
+@media only screen and (max-width: 600px) {
+    .trait-card{
+        flex-basis: 50vw;
+    }
 }

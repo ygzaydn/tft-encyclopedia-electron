@@ -57,7 +57,7 @@ class App extends Component {
       let oldStyle = document.querySelector('.info-title').style;
     if(window.pageYOffset>window.innerHeight/7){
       
-      titleBar.style="background-color: #F05D23;border-color: #F05D23;color:white;border:none;border-radius:0;"
+      titleBar.style="background-color: #2E8BAF;border-color: #2E8BAF;color:white;border:none;border-radius:0;"
     } else {
       titleBar.style=oldStyle;
     }
@@ -183,6 +183,7 @@ class App extends Component {
         return (
           <div className="item-matrix-item-section">
             <a className="item-matrix-item-section-title">{el.name}</a>
+            <a className="item-matrix-item-section-title">______________________________________</a>
             <a className="item-matrix-item-section-description">{el.description}</a>
           </div>
         )
@@ -311,24 +312,6 @@ class App extends Component {
             })}
           </div>
         : null}
-
-        {flags.items?
-          <div className="items-section">
-            <a className="info-title">Items</a>
-            {Items.map(el => {
-              return (
-                <Item
-                  name={el.name}
-                  key={el.id}
-                  imgId={el.id}
-                  description={el.description}
-                  set={3}
-                 />
-              )
-            })}
-          </div>
-        : null}
-
 
         {flags.traits?
           <div className="traits-section">
